@@ -1,0 +1,25 @@
+@media (max-width: 1024px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+
+    .inicio .informacoes{
+        padding: 30px;
+    }
+
+    .inicio .informacoes img{
+        max-width: 100px;
+    }
+
+    .inicio .informacoes .titulo{
+        font-size: 40px;
+    }
+
+}
