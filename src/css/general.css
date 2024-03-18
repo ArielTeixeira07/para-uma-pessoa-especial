@@ -64,3 +64,8 @@ body{
 .inicio .informacoes img{
     max-width: 150px;
 }
+
+.inicio .informacoes .eu-e-ela{
+    display: flex;
+    gap: 32px;
+}
