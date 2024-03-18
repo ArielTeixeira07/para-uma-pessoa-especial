@@ -29,3 +29,23 @@ body{
 .cabecalho .menu li a:hover {
 	border-bottom: 2px solid #fff;
 }
+
+.inicio{
+    display: flex;
+    position: relative;
+    min-height: calc(100hv - 80px);
+}
+
+.inicio::after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7) 35%, transparent 65%);
+}
+
+.inicio .imagem-de-fundo{
+    width: 100%;
+    object-fit: cover;
+
+}
