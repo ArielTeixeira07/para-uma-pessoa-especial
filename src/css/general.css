@@ -48,3 +48,19 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
+.inicio .informacoes {
+    position: absolute;
+	z-index: 1;
+	min-height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	padding: 80px 80px 80px 170px;
+	max-width: 780px;
+}
+
+.inicio .informacoes img{
+    max-width: 150px;
+}
